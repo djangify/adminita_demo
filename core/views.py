@@ -39,4 +39,4 @@ def home(request):
             },
         ]
     }
-    return render(request, "home.html", context)
+    return render(request, "core/home.html", context)

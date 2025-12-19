@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     "allauth.socialaccount",
     "infopages",
     "blog",
+    "core",
 ]
 
 MIDDLEWARE = [
