@@ -2,10 +2,11 @@ django
 django-allauth
 psycopg[binary]
 django-tinymce
-requests
-whitenoise
 django-environ
 django-tinymce
+django-widget-tweaks
 gunicorn
+requests
+whitenoise
 Pillow
-psycopg[binary]
+beautifulsoup4

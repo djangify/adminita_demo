@@ -4,11 +4,11 @@
 {% block title %}Documentation{% endblock %}
 
 {% block content %}
-<div class="max-w-6xl mx-auto px-4 py-12">
+<div class="max-w-6xl mt-16 mx-auto px-4 py-12">
 
     <!-- Page header -->
     <header class="mb-12">
-        <h1 class="text-4xl font-bold text-[color:var(--color-brand-primary)] mb-2">
+        <h1 class="text-4xl font-bold text-[color:var(--color-font-main)] mb-2">
             Documentation
         </h1>
         <p class="text-lg text-[color:var(--color-font-main)]">
@@ -19,7 +19,7 @@
     <!-- Categories -->
     {% if categories_with_counts %}
     <section class="mb-16">
-        <h2 class="text-2xl font-semibold text-[color:var(--color-brand-primary)] mb-6">
+        <h2 class="text-2xl font-semibold text-[color:var(--color-font-main)] mb-6">
             Categories
         </h2>
 
@@ -27,7 +27,7 @@
             {% for item in categories_with_counts %}
             <div class="border border-[color:var(--color-brand-accent)] p-6">
 
-                <h3 class="text-lg font-semibold text-[color:var(--color-brand-primary)] mb-1">
+                <h3 class="text-lg font-semibold text-[color:var(--color-font-main)] mb-1">
                     {{ item.category.name }}
                 </h3>
 
@@ -41,7 +41,7 @@
                     <li>
                         <a href="{{ doc.get_absolute_url }}"
                            class="text-[color:var(--color-brand-secondary)]
-                                  hover:text-[color:var(--color-brand-primary)]">
+                                  hover:text-[color:var(--color-font-main)]">
                             {{ doc.title }}
                         </a>
                     </li>
@@ -66,7 +66,7 @@
 
     <!-- All Articles -->
     <section>
-        <h2 class="text-2xl font-semibold text-[color:var(--color-brand-primary)] mb-6">
+        <h2 class="text-2xl font-semibold text-[color:var(--color-font-main)] mb-6">
             All Articles
         </h2>
 
@@ -80,7 +80,7 @@
 
                 <div class="flex items-center justify-between">
                     <div>
-                        <h3 class="text-lg font-semibold text-[color:var(--color-brand-primary)]">
+                        <h3 class="text-lg font-semibold text-[color:var(--color-font-main)]">
                             {{ page.title }}
                         </h3>
 

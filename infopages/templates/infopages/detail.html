@@ -51,7 +51,7 @@
       
 
       <!-- Footer Navigation -->
-      <footer class="mt-12 border-t border-[color:var(--color-brand-accent)] pt-6">
+      <footer class="mt-12 border-t border-[color:var(--color-brand-accent)] pt-6 mb-8">
         <nav aria-label="Back to section">
           {% if page.page_type == "policy" %}
             <a href="{% url 'infopages:policy_index' %}"
@@ -75,7 +75,7 @@
               More in this category: {{ page.category.name }}
             </h2>
           {% else %}
-            <h2 class="text-2xl font-semibold text-[color:var(--color-brand-primary)] mb-4">
+            <h2 class="text-2xl font-semibold text-[color:var(--color-brand-primary)] mb-16">
               Related Pages
             </h2>
           {% endif %}
