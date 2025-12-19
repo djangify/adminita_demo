@@ -1,0 +1,11 @@
+django
+django-allauth
+psycopg[binary]
+django-tinymce
+requests
+whitenoise
+django-environ
+django-tinymce
+gunicorn
+Pillow
+psycopg[binary]
