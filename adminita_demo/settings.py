@@ -35,6 +35,7 @@ CORS_ALLOWED_ORIGINS = [
 # Application definition
 
 INSTALLED_APPS = [
+    "adminita",
     "accounts",
     "django.contrib.admin",
     "django.contrib.auth",
