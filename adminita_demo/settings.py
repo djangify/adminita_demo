@@ -18,25 +18,26 @@ SECRET_KEY = env("SECRET_KEY", default="unsafe-secret-key")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
+ALLOWED_HOSTS = ["localhost", "adminita.todiane.com", "127.0.0.1"]
 
 
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:8000",
     "http://127.0.0.1:8000",
+    "https://adminita.todiane.com",
 ]
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:8000",
     "http://127.0.0.1:8000",
+    "https://adminita.todiane.com",
 ]
 
 
 # Application definition
 
 INSTALLED_APPS = [
-    "adminita",
-    "accounts",
+    # "adminita",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
@@ -48,6 +49,7 @@ INSTALLED_APPS = [
     "allauth",
     "allauth.account",
     "allauth.socialaccount",
+    "accounts",
     "infopages",
     "blog",
     "core",
@@ -84,9 +86,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = "adminita_demo.wsgi.application"
-
-
-# Database
 
 # Database
 DATABASES = {
