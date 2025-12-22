@@ -10,3 +10,4 @@ requests
 whitenoise
 Pillow
 beautifulsoup4
+adminita
