@@ -10,8 +10,8 @@ admin.site.index_title = "Welcome to Adminita Demo Site"
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("accounts/", include("allauth.urls")),
-    path("infopages/", include("infopages.urls")),
     path("blog/", include("blog.urls")),
+    path("", include("infopages.urls")),
     path("", include("core.urls")),
 ]
 # ---- STATIC/MEDIA ----

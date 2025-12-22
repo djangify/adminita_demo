@@ -55,9 +55,22 @@ Visit [http://localhost:8000/admin](http://localhost:8000/admin)
 ## Related Links
 
 - **Adminita Theme:** [github.com/djangify/adminita](https://github.com/djangify/adminita)
-- **PyPI:** Coming soon
+
+- **PyPI**: https://pypi.org/project/adminita/ 
+
 - **Documentation:** [github.com/djangify/adminita#readme](https://github.com/djangify/adminita#readme)
 
 ## License
 
 MIT License - See [Adminita License](https://github.com/djangify/adminita/blob/main/LICENSE)
+
+
+Made with ❤️ by a Django enthusiast
+
+**Note**: This is an open-source project. I appreciate your patience and contributions!
+
+**Developer**: https://www.todiane.com 
+
+**Developer LinkedIn**: https://linkedin.com/in/todianedev
+
+**Coffee Always Welcome**: https://ko-fi.com/todianedev ❤️

@@ -1,4 +1,4 @@
-<!--blog/templates/blog/list.html-->
+<!--blog/templates/blog/detail.html-->
 {% extends 'base.html' %}
 {% load static %}
 
@@ -72,6 +72,7 @@
     <!-- Main Content -->
     <div class="blog-content">
       {{ post.content|safe }}
+    </div>
     </article>
 
     <!-- Social Share (Bottom) -->
@@ -124,7 +125,7 @@
     }
   },
   "datePublished": "{{ post.publish_date|date:'c' }}",
-  "dateModified": "{{ post.updated_at|date:'c' }}",
+  "dateModified": "{{ post.updated|date:'c' }}",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "{{ request.build_absolute_uri }}"
