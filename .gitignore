@@ -13,11 +13,35 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+# macOS-specific files
+.DS_Store
+
+# jetbrains setting folder
+.idea/
+.htaccess/
+.vscode/
+.venv/
+stderr.log
+staticfiles/
+
+media/
+ZOME/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# build output
+dist/
+# generated types
+.astro/
 
 # environment variables
 .env
-.env.development
+.env.production
 .env.local
+.env.tdstage
 
 # macOS-specific files
 .DS_Store
@@ -38,3 +62,18 @@ ZOME/
 __pycache__/
 *.py[cod]
 *$py.class
+ZOME/
+clean_json.py
+export_all.py
+
+db.sqlite3
+**/db.sqlite3
+data/media/*
+data/db/
+!data/media/.gitkeep
+!data/db/.gitkeep
+static/images
+/static/images
+package-lock.json
+package.json
+ruff.toml
