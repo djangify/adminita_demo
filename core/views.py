@@ -19,8 +19,8 @@ def home(request):
             },
             {
                 "icon": "mobile",
-                "title": "Fully Responsive",
-                "description": "Works perfectly on all devices - from mobile phones to desktop screens.",
+                "title": "Mobile Responsive",
+                "description": "Works perfectly on larger devices. Responsive navigation and touch-friendly controls for phones and tablets",
             },
             {
                 "icon": "zap",
